@@ -1,0 +1,21 @@
+.img_fluid1{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.status{
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Approved{
+        color: green;
+        background-color: rgba(0, 128, 0, 0.151);
+    }
+
+    &.Pending{
+        color: goldenrod;
+        background-color: #cb61131a;
+    }
+}

@@ -1,0 +1,44 @@
+.img_fluid{
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.icons{
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.iconss{
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.iconss:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.icons:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.bg_light{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.noti{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    height:15px !important ;
+    width: 15px !important;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+

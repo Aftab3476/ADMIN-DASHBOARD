@@ -1,0 +1,34 @@
+.imgFluid{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #cbcbcb;
+}
+
+.in_put_data{
+    border: none;
+    border-bottom: 1px solid #b6b4b4;
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.aaaaa{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.la_bel{
+    color: rgb(92, 98, 107);
+}
+
+.btn_primary1{
+    background-color: #06aeff;
+    color: #fff !important;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 600;
+}

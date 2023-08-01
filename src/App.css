@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@media screen and (max-width : 991px) {
+    .col_reverse{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.data{
+    position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img_fluid2{
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    border: 1px solid #000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.status1{
+    padding: 5px;
+    border-radius: 5px;
+
+    &.active{
+        color: green;
+        background-color: rgba(0, 128, 0, 0.151);
+    }
+
+    &.passive{
+        color: crimson;
+        background-color: #cb61131a;
+    }
+
+    &.pending{
+        color: goldenrod;
+        background-color: #cb61131a;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+.btn_primary{
+    /* background-color: crimson; */
+    color: darkblue !important;
+    border: 1px dotted rgba(0,0,139,0.596);
+    border-radius: 2rem;
+    font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn__primary{
+    color: crimson !important;
+    border: 1px dotted rgba(220,20,60,0.6);
+    border-radius: 2rem;
+    font-size: 15px;
 }

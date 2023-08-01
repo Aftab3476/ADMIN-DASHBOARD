@@ -1,0 +1,36 @@
+.brand{
+    text-align: center;
+    color: blue;
+    text-decoration: none !important;
+    font-size: 28px;
+    padding-bottom: 5px !important;
+}
+
+.nav_link{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.items{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn_light{
+    background-color: rgb(192, 201, 201);
+    border-radius:10px;
+}
+.nav_items:hover{
+    background-color: rgb(212, 209, 205);
+    border-radius: 5px;
+}
+
+.card_sidebar{
+    border-radius: 0;
+    border: 1px solid #2222;
+}
+
+.card_sidebar1{
+    border-radius: 0;
+    border: 1px solid #2222;
+}
